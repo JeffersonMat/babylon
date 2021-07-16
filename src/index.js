@@ -61,7 +61,7 @@ const init = () => {
 
     //Model setup importing .gltf model
     const model = SceneLoader.Append(
-      "../assets/daft_punk/",
+      "./public/assets/daft_punk/",
       "scene.gltf",
       scene,
       function (newMeshes) {
